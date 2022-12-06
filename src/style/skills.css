@@ -1,0 +1,47 @@
+#skills{
+    width: 80%;
+    margin: auto;
+   
+}
+#head{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 191, 0);
+    padding:20px 0px 50px 0px ;
+}
+
+#aboutskills{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-column-gap:200px;
+grid-row-gap:50px;
+}
+#aboutskills>div>img{
+width: 100%;
+}
+
+#aboutskills>div:hover{
+    background-color: aliceblue;
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #aboutskills{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+    
+    }
+   }
+ 
+         /* small screens */
+   @media all and (min-width: 320px) and (max-width: 767px) {
+     #aboutskills{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+        
+        }
+   }
+   @media all and (min-width: 120px) and (max-width: 321px) {
+     #aboutskills{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+        }
+   }
