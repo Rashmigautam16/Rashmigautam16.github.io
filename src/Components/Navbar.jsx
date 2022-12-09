@@ -34,7 +34,7 @@ export default function Simple() {
 
   return (
     <>
-      <Box  px={4}>
+      <Box  px={4} id="navtop">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
           bg={"black"}
@@ -45,7 +45,7 @@ export default function Simple() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={"20"} alignItems={'center'} fontSize="16px" fontWeight={"bold"}>
-          <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={1000} ><i class="fa fa-chevron-left" aria-hidden="true"></i> Rashmi <span>/ </span><i class="fa fa-chevron-right" aria-hidden="true"></i></Link>
+          <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={1000} id="name"><i class="fa fa-chevron-left" aria-hidden="true"></i> Rashmi <span>/ </span><i class="fa fa-chevron-right" aria-hidden="true"></i></Link>
             <HStack
               as={'nav'}
               spacing={50}
