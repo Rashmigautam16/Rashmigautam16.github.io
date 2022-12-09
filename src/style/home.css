@@ -6,26 +6,36 @@
     align-items: center;
     padding: 120px 0px 120px 0px;
 }
-
-
-#image{
-    border-radius: 15px;
-    box-shadow: rgba(235, 230, 230, 0.961) 0px 3px 6px, rgba(237, 233, 233, 0.864) 0px 3px 6px;
-}
-#image:hover{
-    box-shadow: rgba(239, 243, 243, 0.912) 0px 7px 29px 0px;
-}
 #intro{
-    color: aliceblue;
+    font-size: 25px;
+   
 }
 #intro>h1{
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
-    color: rgb(255, 191, 0);
+    display: flex;
 }
-#intro>div{
-    font-size: 20px;
+.span{
+    font-size: 35px;
     font-weight: bold;
+    color: rgb(199, 121, 203);
+}
+#type{
+    display: flex;
+    gap:10px;
+    color: rgb(199, 121, 203);
+}
+#type>div{
+    color: rgb(199, 121, 203);
+}
+#image{
+    width: 400px;
+    height: 500px;
+    border-radius: 100px;
+}
+#resume{
+    display: flex;
+    background-color:  rgb(199, 121, 203);
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
    #home{
