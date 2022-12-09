@@ -14,7 +14,6 @@ import {
 
 import { HamburgerIcon } from '@chakra-ui/icons';
 
-// const Links = ['Dashboard', 'Projects', 'Team'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -45,11 +44,11 @@ export default function Simple() {
             display={{ md: 'none' }}
             onClick={isOpen ? onClose : onOpen}
           />
-          <HStack spacing={8} alignItems={'center'}>
+          <HStack spacing={"20"} alignItems={'center'} fontSize="16px" fontWeight={"bold"}>
           <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={1000} ><i class="fa fa-chevron-left" aria-hidden="true"></i> Rashmi <span>/ </span><i class="fa fa-chevron-right" aria-hidden="true"></i></Link>
             <HStack
               as={'nav'}
-              spacing={4}
+              spacing={50}
               display={{ base: 'none', md: 'flex' }}>
             <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={1000} >Home </Link>
             <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={1000}>About</Link>
@@ -64,7 +63,7 @@ export default function Simple() {
 
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
-            <Stack as={'nav'} spacing={4}>
+            <Stack as={'nav'} spacing={4} fontSize="16px" fontWeight={"bold"}>
             <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={1000} >Home </Link>
             <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={1000}>About</Link>
             <Link activeClass="active" to="skills" spy={true} smooth={true} offset={50} duration={1000}>Skills</Link>
