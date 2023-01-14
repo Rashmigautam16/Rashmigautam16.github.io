@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.668b1b66.css",
-    "main.js": "/static/js/main.1443cd6f.js",
+    "main.css": "/static/css/main.cebf29a4.css",
+    "main.js": "/static/js/main.9fc3ad21.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/project2.gif": "/static/media/project2.4e4da4752c43131a8263.gif",
-    "static/media/project1.gif": "/static/media/project1.bfd2642b848f83a22120.gif",
+    "static/media/uboric.gif": "/static/media/uboric.4e4da4752c43131a8263.gif",
+    "static/media/nyka.gif": "/static/media/nyka.3644a4c67dabc5c83b0a.gif",
+    "static/media/sephora.gif": "/static/media/sephora.bfd2642b848f83a22120.gif",
     "static/media/gifabout.gif": "/static/media/gifabout.a50a087d3e8aad894f33.gif",
     "static/media/rashmiProfile.png": "/static/media/rashmiProfile.6780e20f98f4e2f37198.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.eee4b572114093781738.png",
@@ -13,12 +14,12 @@
     "static/media/storybook.png": "/static/media/storybook.615d919326c9dd4da974.png",
     "static/media/tailwind.jpeg": "/static/media/tailwind.6a3487568be520449c0e.jpeg",
     "index.html": "/index.html",
-    "main.668b1b66.css.map": "/static/css/main.668b1b66.css.map",
-    "main.1443cd6f.js.map": "/static/js/main.1443cd6f.js.map",
+    "main.cebf29a4.css.map": "/static/css/main.cebf29a4.css.map",
+    "main.9fc3ad21.js.map": "/static/js/main.9fc3ad21.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.668b1b66.css",
-    "static/js/main.1443cd6f.js"
+    "static/css/main.cebf29a4.css",
+    "static/js/main.9fc3ad21.js"
   ]
 }
