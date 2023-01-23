@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.cebf29a4.css",
-    "main.js": "/static/js/main.9fc3ad21.js",
+    "main.css": "/static/css/main.a51bea5c.css",
+    "main.js": "/static/js/main.cde2dc18.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/uboric.gif": "/static/media/uboric.4e4da4752c43131a8263.gif",
-    "static/media/nyka.gif": "/static/media/nyka.3644a4c67dabc5c83b0a.gif",
+    "static/media/nykaa.gif": "/static/media/nykaa.ed94de8f5860bc1ceddf.gif",
+    "static/media/apnidukan.gif": "/static/media/apnidukan.8f1b37d2588530add910.gif",
     "static/media/sephora.gif": "/static/media/sephora.bfd2642b848f83a22120.gif",
     "static/media/gifabout.gif": "/static/media/gifabout.a50a087d3e8aad894f33.gif",
     "static/media/rashmiProfile.png": "/static/media/rashmiProfile.6780e20f98f4e2f37198.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.eee4b572114093781738.png",
     "static/media/mongo.jpeg": "/static/media/mongo.b9e24b8bb2aef42f7ee6.jpeg",
     "static/media/nextjs.png": "/static/media/nextjs.331efda6800a28298b1b.png",
-    "static/media/storybook.png": "/static/media/storybook.615d919326c9dd4da974.png",
     "static/media/tailwind.jpeg": "/static/media/tailwind.6a3487568be520449c0e.jpeg",
     "index.html": "/index.html",
-    "main.cebf29a4.css.map": "/static/css/main.cebf29a4.css.map",
-    "main.9fc3ad21.js.map": "/static/js/main.9fc3ad21.js.map",
+    "main.a51bea5c.css.map": "/static/css/main.a51bea5c.css.map",
+    "main.cde2dc18.js.map": "/static/js/main.cde2dc18.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cebf29a4.css",
-    "static/js/main.9fc3ad21.js"
+    "static/css/main.a51bea5c.css",
+    "static/js/main.cde2dc18.js"
   ]
 }
