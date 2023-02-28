@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a81750cc.css",
-    "main.js": "/static/js/main.4f70a2d1.js",
+    "main.css": "/static/css/main.818f4631.css",
+    "main.js": "/static/js/main.75e53cd3.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/nykaa.gif": "/static/media/nykaa.ed94de8f5860bc1ceddf.gif",
     "static/media/apnidukan.gif": "/static/media/apnidukan.8f1b37d2588530add910.gif",
+    "static/media/nearby.gif": "/static/media/nearby.9509a591f9ca54586801.gif",
     "static/media/sephora.gif": "/static/media/sephora.bfd2642b848f83a22120.gif",
     "static/media/gifabout.gif": "/static/media/gifabout.a50a087d3e8aad894f33.gif",
-    "static/media/book.gif": "/static/media/book.7d2fc581f3e4d8465af3.gif",
-    "static/media/rashmiProfile.jpeg": "/static/media/rashmiProfile.78df53e7b9ffc38cc42b.jpeg",
+    "static/media/rashmi.png": "/static/media/rashmi.c67430d38eb086fdf9be.png",
     "static/media/mongo.jpeg": "/static/media/mongo.b9e24b8bb2aef42f7ee6.jpeg",
     "static/media/nextjs.png": "/static/media/nextjs.331efda6800a28298b1b.png",
     "static/media/tailwind.jpeg": "/static/media/tailwind.6a3487568be520449c0e.jpeg",
     "index.html": "/index.html",
-    "main.a81750cc.css.map": "/static/css/main.a81750cc.css.map",
-    "main.4f70a2d1.js.map": "/static/js/main.4f70a2d1.js.map",
+    "main.818f4631.css.map": "/static/css/main.818f4631.css.map",
+    "main.75e53cd3.js.map": "/static/js/main.75e53cd3.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a81750cc.css",
-    "static/js/main.4f70a2d1.js"
+    "static/css/main.818f4631.css",
+    "static/js/main.75e53cd3.js"
   ]
 }
