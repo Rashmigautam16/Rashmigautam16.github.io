@@ -1,47 +1,64 @@
-#skills{
-    width: 80%;
-    margin: auto;
-   
-}
-#head{
-    font-size: 35px;
-    font-weight: bold;
-    color: rgb(255, 191, 0);
-    padding:20px 0px 50px 0px ;
-}
 
-#aboutskills{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-grid-column-gap:200px;
-grid-row-gap:50px;
-}
-#aboutskills>div>img{
-width: 100%;
-}
+  /* Cardskill */
+  .cardskill {
+    transition: all 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -o-transition: all 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -moz-transition: all 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    -webkit-transition: all 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+    width: 35%;
+    height: 100px;
+    transform-style: preserve-3d;
+    position: relative;
+    padding: 24px;
+    margin: 20px;
+    min-width: 120px;
+    border: 1.5px solid white;
+    box-shadow: 0 0 5px white;
+    border-radius: 20px;
+    background-color: black;
+  }
+  .cardskill:hover {
+    box-shadow: 0 0 28px white;
+    transform: rotateY(179deg);
+  }
+  .cardskill .content, .cardskill .front, .cardskill .back {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+  }
+  
+  .cardskill .front, .cardskill .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  .cardskill .front h1, .cardskill .back h1 {
+    margin-top: 0;
+  }
+  .cardskill .front h1::after, .cardskill .back h1::after {
+    width: 2.2rem;
+    height: 2px;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -0.28rem;
+    background-color: white;
+  }
+  .cardskill .front h1, .cardskill .front span, .cardskill .front p, .cardskill .back h1, .cardskill .back span, .cardskill .back p {
+    transform: translateZ(60px);
+  }
+  .cardskill .back {
+    transform: rotateY(179deg);
+  }
 
-#aboutskills>div:hover{
-    background-color: aliceblue;
-}
-@media all and (min-width: 768px) and (max-width: 1024px) {
-    #aboutskills{
-     display: grid;
-     grid-template-columns: repeat(4,1fr);
-    
-    }
-   }
- 
-         /* small screens */
-   @media all and (min-width: 320px) and (max-width: 767px) {
-     #aboutskills{
-         display: grid;
-         grid-template-columns: repeat(2,1fr);
-        
-        }
-   }
-   @media all and (min-width: 120px) and (max-width: 321px) {
-     #aboutskills{
-         display: grid;
-         grid-template-columns: repeat(1,1fr);
-        }
-   }
+  .back>p{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  

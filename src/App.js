@@ -1,18 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
-import Pages from './Components/Pages';
-import Navbar from './Components/Navbar'
+
 import Home from './Components/Home';
 import About from './Components/About';
-import Skills from './Components/Skills';
+import Project from './Components/Project';
+import Contact from './Components/Contact';
+import Github from './Components/Github';
+import Skill from './Components/Skill';
+import Navbaar from './Components/Navbaar';
+
 
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
-    <Home/>
+    <div className="">
+    <Navbaar/>
+    <div className="bg-gray-900 p-4 text-white py-5" >
+    <Home/> 
     <About/>
-    <Skills/>
+    <Skill/>
+    <Project/>
+    <Github/>
+    <Contact/>
+    </div>
     </div>
   );
 }

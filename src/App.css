@@ -17,19 +17,10 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+
+.App {
+  color: black;
 }
 
 @keyframes App-logo-spin {
@@ -41,6 +32,15 @@
   }
 }
 
- * {
-  background-color: #282c34;
- }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+.port{
+  background: rgb(134,142,171);
+  background: linear-gradient(90deg, rgba(134,142,171,1) 48%, rgba(219,198,202,1) 100%, rgba(77,58,58,1) 100%, rgba(86,88,102,1) 100%, rgba(38,32,55,1) 100%);
+}
+  
+
+  
