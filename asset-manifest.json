@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.052a4359.css",
-    "main.js": "/static/js/main.624c3019.js",
+    "main.css": "/static/css/main.fd3f326e.css",
+    "main.js": "/static/js/main.5f422aa4.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/techgame.gif": "/static/media/techgame.a82d159a03ec7acac24d.gif",
+    "static/media/uboric.gif": "/static/media/uboric.4e4da4752c43131a8263.gif",
     "static/media/nykaa.gif": "/static/media/nykaa.ed94de8f5860bc1ceddf.gif",
     "static/media/apnidukan.gif": "/static/media/apnidukan.8f1b37d2588530add910.gif",
     "static/media/nearby.gif": "/static/media/nearby.9509a591f9ca54586801.gif",
@@ -13,12 +15,12 @@
     "static/media/nextjs.png": "/static/media/nextjs.331efda6800a28298b1b.png",
     "static/media/tailwind.jpeg": "/static/media/tailwind.6a3487568be520449c0e.jpeg",
     "index.html": "/index.html",
-    "main.052a4359.css.map": "/static/css/main.052a4359.css.map",
-    "main.624c3019.js.map": "/static/js/main.624c3019.js.map",
+    "main.fd3f326e.css.map": "/static/css/main.fd3f326e.css.map",
+    "main.5f422aa4.js.map": "/static/js/main.5f422aa4.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.052a4359.css",
-    "static/js/main.624c3019.js"
+    "static/css/main.fd3f326e.css",
+    "static/js/main.5f422aa4.js"
   ]
 }
