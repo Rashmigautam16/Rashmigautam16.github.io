@@ -1,25 +1,25 @@
 import tailwind from "../assets/tailwind.jpeg";
-import chakra  from "../assets/chakra.jpg";
+import chakra from "../assets/chakra.jpg";
 import nextjs from "../assets/nextjs.png";
 import mongo from "../assets/mongo.jpeg";
 import React from "react";
 import "../style/skills.css";
 
 const Skill = () => {
-  const  Skills=[
+  const Skills = [
     {
-      name:"",
-      link:""
+      name: "",
+      link: ""
     }
   ]
   return (
     <>
-    <div  id="skills" className="m-auto w-[90%]  lg:w-[90%] md:w-[80%] mt-1  lg:mt-20 md:mt-16 " >
+      <div id="skills" className="m-auto w-[90%]  lg:w-[90%] md:w-[80%] mt-1  lg:mt-20 md:mt-16 " >
         <h1 className="text-3xl lg:text-5xl md:text-5xl font-black text-slate-400 underline underline-offset-8 py-20 lg:py-10 md:py-10 pt-48">
           Skills
         </h1>
         <div className="container  grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 items-center justify-center lg:pl-8">
-          <div  className="cardskill ">
+          <div className="cardskill ">
             <div className="content">
               <div className="front">
                 <img
@@ -33,7 +33,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -47,7 +47,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -61,7 +61,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -75,7 +75,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -89,7 +89,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -103,7 +103,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -117,7 +117,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -131,17 +131,17 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
-                <img width="90%" src={mongo} alt="mongo" />
+                <img width="90%" src="https://avinashpatel15.github.io/static/media/mongodb.967712d43604435a706f.png" alt="mongo" />
               </div>
               <div className="back">
-                <p>MONOGO DB</p>
+                <p>MONGO DB</p>
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img width="70%" src={nextjs} alt="nextjs" />
@@ -151,7 +151,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -165,7 +165,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img width="70%" src={tailwind} alt="nextjs" />
@@ -176,17 +176,17 @@ const Skill = () => {
             </div>
           </div>
         </div>
-    </div>
-    <div
-      id="skills"
-      className="m-auto w-[90%]  lg:w-[90%] md:w-[80%] mt-1  lg:mt-20 md:mt-16 "
-    >
-      
+      </div>
+      <div
+        id="skills"
+        className="m-auto w-[90%]  lg:w-[90%] md:w-[80%] mt-1  lg:mt-20 md:mt-16 "
+      >
+
         <h1 className="text-3xl lg:text-5xl md:text-5xl font-black text-slate-400 underline underline-offset-8 py-20 lg:py-10 md:py-10 pt-48">
           Tools
         </h1>
         <div className="container  grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 items-center justify-center lg:pl-8">
-          <div  className="cardskill ">
+          <div className="cardskill ">
             <div className="content">
               <div className="front">
                 <img
@@ -200,7 +200,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -214,7 +214,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -228,7 +228,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -242,7 +242,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div  className="cardskill">
+          <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -256,9 +256,37 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          
+          <div className="cardskill">
+            <div className="content">
+              <div className="front">
+                <img
+                  width="90%"
+                  src="https://avinashpatel15.github.io/static/media/Netlify.63d286a96086fbcce027.png"
+                  alt="Netlify"
+                />
+              </div>
+              <div className="back">
+                <p>NETLIFY</p>
+              </div>
+            </div>
+          </div>
+          <div className="cardskill">
+            <div className="content">
+              <div className="front">
+                <img
+                  width="90%"
+                  src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67"
+                  alt="github"
+                />
+              </div>
+              <div className="back">
+                <p>Vercel</p>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </div>
+      </div>
     </>
   );
 };

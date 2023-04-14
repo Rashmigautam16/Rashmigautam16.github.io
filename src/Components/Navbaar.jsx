@@ -44,7 +44,7 @@ const Navbaar = () => {
                         {
                             Head.map((el) => (
                                 <Link className="cursor-pointer" activeClass="active" to={el.to} spy={true} smooth={true} offset={50} duration={1500}>
-                                    <Text fontSize={"lg"} className="text-4xl hover:text-slate-400 hover:scale-110 hover:duration-300" >{el.name}</Text>
+                                    <Text fontSize={"lg"} className="text-white text-4xl hover:text-slate-400 hover:scale-110 hover:duration-300" >{el.name}</Text>
                                 </Link>
 
                             ))
@@ -52,8 +52,8 @@ const Navbaar = () => {
 
                         <Flex as="h1" size={{ base: "md", md: "lg" }}  >
                             <a href="Rashmi_Gautam_Resume.pdf" download="fw19_0825-Rashmi_Gautam_Resume" >
-                                <button class="bg-gradient-to-r from-red-400 to-red-200 shadow-lg shadow-red-400/50 py-2 px-4 rounded-xl text-sm font-bold">
-                                    <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/file/d/1PfT5sY5IlpDLNQhTHrJiV0wGieTo7mFD/view?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
+                                <button class="bg-gradient-to-r from-red-400 to-red-300 shadow-lg shadow-gray-500 py-3 px-4 rounded-md text-sm font-bold text-white">
+                                    <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/drive/folders/1K51AnWY03x3COr-MEHBKllCoNFgRTRJf?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
                                 </button>
                             </a>
                         </Flex>
@@ -81,14 +81,14 @@ const Navbaar = () => {
 
             {isOpen ? (
                 <Box display={{ md: 'none' }}  >
-                    <Flex p="6" gap={"6"} flexDir="column">
+                    <Flex p="6" gap={"16"} flexDir="column" height={"100vh"}>
                         {
                             Head.map((el) => (
                                 <Link className="cursor-pointer" activeClass="active" to={el.to} spy={true} smooth={true} offset={50} duration={1500}>
-                                    <Text fontSize={"lg"} className=" text-4xl hover:text-slate-400 hover:scale-y-110 hover:duration-300">{el.name}</Text>
+                                    <Text fontSize={"20px"} className="text-white text-4xl hover:text-slate-400 hover:scale-y-110 hover:duration-300">{el.name}</Text>
                                 </Link>
 
-                            ))
+                            ))             
                         }
                     </Flex>
                 </Box>
