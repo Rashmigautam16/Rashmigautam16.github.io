@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" w-[90%] m-auto"
+      className=" w-[90`%] m-auto"
     >
       <h1 className="text-3xl lg:text-5xl md:text-5xl pb-20 font-black text-slate-400 underline underline-offset-8 ">
         About

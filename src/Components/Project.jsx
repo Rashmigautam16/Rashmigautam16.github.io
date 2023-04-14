@@ -28,7 +28,7 @@ const Project = () => {
               <div className="w-[100%]  m-auto ">
                 <img className="w-[100%] h-[200px]" src={el.image} alt={el.name} />
               </div>
-              <div className="flex flex-col align-bottom gap-3  pt-5 h-[200px]">
+              <div className="flex flex-col align-bottom  pt-4 h-[200px]">
                 <p className="text-start text-[16px] tracking-wide ">{el.description}</p>
                 <p className="text-start text-md font-bold  text-transparent bg-clip-text bg-gradient-to-r from-slate-400 to-slate-200 underline pt-3">
                   ◉ Tech Stack:{" "}

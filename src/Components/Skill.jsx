@@ -191,7 +191,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://w7.pngwing.com/pngs/905/947/png-transparent-microsoft-visual-studio-code-alt-macos-bigsur-icon-thumbnail.png"
+                  src="https://avinashpatel15.github.io/static/media/vscode.9c882ad5badc1ff1af21.png"
                   alt="VS code"
                 />
               </div>

@@ -28,9 +28,9 @@ const Home = () => {
             <Typeabout />
           </div>
           <Social />
-          <div class="flex gap-4  ">
+          <div class=" ">
             <a href="Rashmi_Gautam_Resume.pdf" download="fw19_0825-Rashmi_Gautam_Resume" >
-              <button class="bg-gradient-to-r from-red-400 to-red-300 shadow-lg shadow-gray-500 py-3 px-4 rounded-md text-sm font-bold">
+              <button class="bg-gradient-to-r from-red-400 to-red-300 shadow-lg shadow-gray-500 py-3 px-4 rounded-md text-sm font-bold hover:scale-110 hover:duration-300">
                 <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/drive/folders/1K51AnWY03x3COr-MEHBKllCoNFgRTRJf?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
               </button>
             </a>
