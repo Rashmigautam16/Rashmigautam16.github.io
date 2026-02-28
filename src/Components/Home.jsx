@@ -1,11 +1,8 @@
 import rashmi from "../assets/rashmi.png";
-import { BsGithub } from "react-icons/bs";
 import Typeabout from "./TypeAbout";
-import React from "react";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import Social from "./Social";
-import { Show } from "@chakra-ui/react";
 import { AiOutlineDownload } from "react-icons/ai";
 AOS.init();
 
@@ -37,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-[80%] md:w-[40%] lg:[40%] flex justify-end items-center border-3 border-red-400 rounded-[20%] p-2" >
-          <img className="w-[80%] h-[80%] rounded-[50%] border-3 border-red-400" src={rashmi} alt="Rashmi" />
+          <img className="w-[80%] h-[75%] rounded-[50%] border-3 border-red-400" src={rashmi} alt="Rashmi" />
         </div>
 
       </div>
