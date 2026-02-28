@@ -26,7 +26,7 @@ const Github = () => {
               margin="auto"
             />
           </div>
-          <div className="w-[90%] flex flex-col justify-center	items-center	gap-6 pb-5">
+          {/* <div className="w-[90%] flex flex-col justify-center	items-center	gap-6 pb-5">
             <div className="flex justify-Center items-center gap-8 flex-col lg:flex-row md:flex-row">
               <div className=" w-[80%] lg:w-[80%] md:w-[50%]  hover:scale-105 hover:duration-300  cursor-pointer">
                 <img
@@ -50,7 +50,7 @@ const Github = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

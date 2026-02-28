@@ -25,12 +25,10 @@ const About = () => {
            
             <p  className=" p-2 md:p-0 text-md flex text-left lg:text-xl md:text-base  font-sans md:font-seri font-wider  ">
               {" "}
-              A passionate React JS Front-End Web Developer, Dedicated to
-              developing robust applications that interact with the front-end
-              part of web applications. Extensive expertise in website
-              architecture, design, and web design, and web API designs.
-              Problem-solving mindset with a goal to optimize my application for
-              better stability and speed. Love to work in a team.
+            Software Engineer with hands-on experience in building and maintaining scalable web applications using React.js, Node.js, and SQL.
+            Skilled in developing reusable frontend components, designing RESTful APIs, managing sessions, and implementing advanced features like image processing and rich text editing. 
+            Strong problem-solving mindset with a focus on performance optimization, clean architecture, and production-ready solutions.
+            Effective team player committed to delivering high-quality software.
             </p>
           </div>
         </div>

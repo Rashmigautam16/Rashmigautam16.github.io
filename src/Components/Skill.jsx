@@ -1,9 +1,16 @@
 import tailwind from "../assets/tailwind.jpeg";
 import chakra from "../assets/chakra.jpg";
 import nextjs from "../assets/nextjs.png";
-import mongo from "../assets/mongo.jpeg";
-import React from "react";
 import "../style/skills.css";
+import html from "../assets/html.png";
+import github from "../assets/github.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import react from "../assets/react.png";
+import redux from "../assets/redux.png";
+import nodejs from "../assets/nodejs.png";
+import typescript from "../assets/typescript.png";
+import sql from "../assets/sql.png";
 
 const Skill = () => {
   const Skills = [
@@ -24,7 +31,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg"
+                  src={html}
                   alt="html"
                 />
               </div>
@@ -38,7 +45,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://chiranjeev-thapliyal.vercel.app/svg/css3.svg"
+                  src={css}
                   alt="css"
                 />
               </div>
@@ -52,7 +59,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg"
+                  src={javascript}
                   alt="js"
                 />
               </div>
@@ -66,7 +73,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg"
+                  src={react}
                   alt="react"
                 />
               </div>
@@ -80,7 +87,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://chiranjeev-thapliyal.vercel.app/svg/redux.svg"
+                  src={redux}
                   alt="redux"
                 />
               </div>
@@ -94,7 +101,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg"
+                  src={nodejs}
                   alt="node"
                 />
               </div>
@@ -108,7 +115,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://camo.githubusercontent.com/d2821617ebb471dac3033a3e0b8e17c692f6ed59c0c9ad8acdfa7562a6ea6a81/68747470733a2f2f63646e2e737667706f726e2e636f6d2f6c6f676f732f6769742d69636f6e2e737667"
+                  src={github}
                   alt="github"
                 />
               </div>
@@ -122,7 +129,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="70%"
-                  src="https://camo.githubusercontent.com/94890eb1b8c3ce19ea73189dade730fa967a8fe08899f25cab17b57a5d4339dc/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f747970657363726970742d6f726967696e616c2e737667"
+                  src={typescript}
                   alt="typescript"
                 />
               </div>
@@ -134,10 +141,10 @@ const Skill = () => {
           <div className="cardskill">
             <div className="content">
               <div className="front">
-                <img width="90%" src="https://avinashpatel15.github.io/static/media/mongodb.967712d43604435a706f.png" alt="mongo" />
+                <img width="90%" src={sql} alt="sql" />
               </div>
               <div className="back">
-                <p>MONGO DB</p>
+                <p>SQL</p>
               </div>
             </div>
           </div>
@@ -200,7 +207,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="cardskill">
+          {/* <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -213,8 +220,8 @@ const Skill = () => {
                 <p>MONGODB ATLAS</p>
               </div>
             </div>
-          </div>
-          <div className="cardskill">
+          </div> */}
+          {/* <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -227,7 +234,7 @@ const Skill = () => {
                 <p>CYCLIC.SH</p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="cardskill">
             <div className="content">
               <div className="front">
@@ -247,7 +254,7 @@ const Skill = () => {
               <div className="front">
                 <img
                   width="90%"
-                  src="https://camo.githubusercontent.com/d2821617ebb471dac3033a3e0b8e17c692f6ed59c0c9ad8acdfa7562a6ea6a81/68747470733a2f2f63646e2e737667706f726e2e636f6d2f6c6f676f732f6769742d69636f6e2e737667"
+                  src={github}
                   alt="github"
                 />
               </div>
@@ -270,7 +277,7 @@ const Skill = () => {
               </div>
             </div>
           </div>
-          <div className="cardskill">
+          {/* <div className="cardskill">
             <div className="content">
               <div className="front">
                 <img
@@ -283,7 +290,7 @@ const Skill = () => {
                 <p>Vercel</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </div>

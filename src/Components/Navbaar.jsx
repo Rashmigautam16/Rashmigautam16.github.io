@@ -51,9 +51,9 @@ const Navbaar = () => {
                         }
 
                         <Flex as="h1" size={{ base: "md", md: "lg" }}  >
-                            <a href="Rashmi_Gautam_Resume.pdf" download="fw19_0825-Rashmi_Gautam_Resume" >
+                            <a href="Rashmi_Gautam_Resume.pdf" download="Rashmi_Gautam_Resume" >
                                 <button class="bg-gradient-to-r from-red-400 to-red-300 shadow-lg shadow-gray-500 py-3 px-4 rounded-md text-sm font-bold text-white hover:scale-110 hover:duration-300">
-                                    <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/drive/folders/1K51AnWY03x3COr-MEHBKllCoNFgRTRJf?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
+                                    <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/file/d/1PMLpRRoyn2-qcKMd6lWuBhysrU_9Wff1/view?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
                                 </button>
                             </a>
                         </Flex>
