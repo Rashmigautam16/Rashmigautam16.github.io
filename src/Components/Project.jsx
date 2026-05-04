@@ -86,15 +86,6 @@ const project = [
     netlify: "https://apnidukaan-9a863.web.app/",
   },
   {
-    name: "PANACHE BEAUT",
-    image: nykaa,
-    description:
-      "Nykaa is an Indian e-commerce company, It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores.",
-    tech: "ReactJS | Redux | ChakraUI | Tailwind",
-    github: "https://github.com/AdityaBr11/Nykaa-Clone",
-    netlify: "https://superb-semifreddo-4541c0.netlify.app/",
-  },
-  {
     name: "UBORIC",
     image: uboric,
     description:

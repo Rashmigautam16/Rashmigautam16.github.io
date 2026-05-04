@@ -13,12 +13,6 @@ const Social = () => {
             <p className='text-4xl  hover:scale-110 hover:duration-300'><MdOutlineEmail/></p>
           </a>
         </div>
-       
-        <div >
-          <a href="https://github.com/Rashmigautam16" target="_black">
-            <p className='text-4xl  hover:scale-110 hover:duration-300'><BsGithub/></p>
-          </a>
-        </div>
         <div >
           <a href="https://www.linkedin.com/in/rashmi-gautam16/" target="_black">
             <p  className='text-4xl  hover:scale-110 hover:duration-300'><BsLinkedin /></p>

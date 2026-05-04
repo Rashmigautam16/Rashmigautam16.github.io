@@ -21,13 +21,6 @@ const Contact = () => {
         <div className="">
           <div className="flex flex-col py-2 gap-8 font-bold  ">
             <div className="flex items-center gap-3  text-slate-400 ">
-              <div className="flex items-center gap-2">
-              < BsFillTelephoneFill className="text-2xl" />
-              <p>Phone:</p>
-              </div>
-              <p>+91-8800428073</p>
-            </div>
-            <div className="flex items-center gap-3  text-slate-400 ">
               <div  className="flex items-center gap-2">
                 <ImLocation2 className="text-2xl" />
                 <p>Location:</p>
@@ -42,16 +35,6 @@ const Contact = () => {
                 </div>
               </a>
               <p>rashmigaut99@gmail.com</p>
-            </div>
-
-            <div className="flex items-center gap-3  text-slate-400  ">
-              <a href="https://github.com/Rashmigautam16" target="_black">
-                <div className="flex items-center gap-2">
-                  <BsGithub className=" text-2xl" />
-                  <p>Github:</p>
-                </div>
-              </a>
-              <p>github.com/Rashmigautam16</p>
             </div>
             <div className="flex items-center gap-3  text-slate-400  ">
               <a

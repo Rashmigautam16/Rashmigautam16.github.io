@@ -28,13 +28,13 @@ const Home = () => {
           <div class=" ">
             <a href="Rashmi_Gautam_Resume.pdf" download="Rashmi_Gautam_Resume" > 
               <button class="bg-gradient-to-r from-red-400 to-red-300 shadow-lg shadow-gray-500 py-3 px-4 rounded-md text-sm font-bold hover:scale-110 hover:duration-300">
-                <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/file/d/1PMLpRRoyn2-qcKMd6lWuBhysrU_9Wff1/view?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
+                <p className=" flex justify-center" onClick={() => window.open("https://drive.google.com/file/d/1BgwOZHVxtU7o6x0xcmQvVYnWDjQhVadL/view?usp=sharing")}>RESUME <span className="text-xl">< AiOutlineDownload /></span></p>
               </button>
             </a>
           </div>
         </div>
         <div className="w-[80%] md:w-[40%] lg:[40%] flex justify-end items-center border-3 border-red-400 rounded-[20%] p-2" >
-          <img className="w-[80%] h-[75%] rounded-[50%] border-3 border-red-400" src={rashmi} alt="Rashmi" />
+          <img className="w-[80%] h-[45%] rounded-[50%] border-3 border-red-400" src={rashmi} alt="Rashmi" />
         </div>
 
       </div>
